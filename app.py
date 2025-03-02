@@ -5,6 +5,7 @@ import os
 import random
 import string
 from flask_cors import CORS
+from waitress import serve
 
 load_dotenv()
 
@@ -55,4 +56,6 @@ def redirecionar(short_url):
         return 'URL curta não encontrada', 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Use o Waitress para rodar o servidor
+    print("Server started on port 5000")
+    serve(app, host='0.0.0.0', port=5000)  # Alterado para usar o Waitress
