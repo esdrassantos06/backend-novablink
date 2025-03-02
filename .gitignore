@@ -1,0 +1,45 @@
+# Environment configuration files
+.env
+*.env
+
+# Virtual environment directories
+venv/
+.env/
+*.venv
+
+# Python cache and configuration files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local database files
+*.sqlite3
+
+# Log files
+*.log
+
+# Test coverage files
+.coverage
+*.cover
+*.hypothesis/
+
+# Build files
+*.egg
+*.egg-info
+dist/
+build/
+pip-wheel-metadata/
+instance/
+
+# Editor/IDE specific files
+# For VSCode
+.vscode/
+
+# For PyCharm
+.idea/
+
+# Jupyter Notebooks files
+.ipynb_checkpoints/
+
+# Editor backup files
+*~
