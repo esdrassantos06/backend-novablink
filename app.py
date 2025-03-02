@@ -56,6 +56,7 @@ def redirecionar(short_url):
         return 'URL curta não encontrada', 404
 
 if __name__ == '__main__':
-    # Use o Waitress para rodar o servidor
-    print("Server started on port 5000")
-    serve(app, host='0.0.0.0', port=5000)  # Alterado para usar o Waitress
+    
+    port = int(os.getenv('PORT', 5000))  # A variável PORT é fornecida pelo Render
+    print(f"Server started on port {port}")
+    serve(app, host='0.0.0.0', port=port)
