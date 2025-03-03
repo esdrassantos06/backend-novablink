@@ -88,4 +88,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ## Licença
 
-[Insira a licença do seu projeto, se aplicável]
+Esse projeto tem a licensa [MIT](LICENSE)
