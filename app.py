@@ -57,6 +57,6 @@ def redirecionar(short_url):
 
 if __name__ == '__main__':
     
-    port = int(os.getenv('PORT', 5000))  # A variável PORT é fornecida pelo Render
+    port = int(os.getenv('PORT', 5000))  # A variável PORT é fornecida pelo app de deploy 
     print(f"Server started on port {port}")
     serve(app, host='0.0.0.0', port=port)
