@@ -16,9 +16,9 @@ Este é o backend do projeto NovaBlink, um encurtador de URLs construído com Py
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/esdrassantos06/backend-novablink/
+    git clone https://github.com/esdrassantos06/novablink-api/
 
-    cd backend-novablink
+    cd novablink-api
     ```
 
 2.  **Crie um ambiente virtual:**
